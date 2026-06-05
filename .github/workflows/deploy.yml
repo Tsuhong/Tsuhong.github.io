@@ -19,7 +19,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 9 # 根据你本地的 pnpm 版本调整，9 或 8 均可
+          version: 11 # 根据你本地的 pnpm 版本调整，9 或 8 均可
 
       - name: Setup Node
         uses: actions/setup-node@v4
